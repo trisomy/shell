@@ -5,6 +5,12 @@
 #include <Cocoa/Cocoa.h>
 
 
+@interface TrisomyApplication : NSObject
+
+@end
+
+
+
 TRISOMY_API int trisomy_create_app(trisomy_app_t * app)
 {
     [NSApplication sharedApplication];
